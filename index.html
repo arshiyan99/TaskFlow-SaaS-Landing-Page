@@ -1,0 +1,836 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="TaskFlow helps teams manage projects, organize tasks and improve productivity with one simple platform.">
+
+    <title>TaskFlow - Manage Work Smarter</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header" id="home">
+
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <i class="fa-solid fa-layer-group"></i>
+                </span>
+                Task<span>Flow</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <a href="#contact" class="nav-btn">
+                        Get Started <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO SECTION ================= -->
+
+        <section class="hero section-padding">
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="hero-label">
+                        <span class="status-dot"></span>
+                        Smart Project Management Platform
+                    </div>
+
+                    <h1>
+                        Manage Your Work.
+                        <span>Achieve More.</span>
+                    </h1>
+
+                    <p>
+                        Bring your team, projects and tasks together
+                        in one powerful workspace. Plan smarter,
+                        collaborate better and get things done faster
+                        with TaskFlow.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#contact" class="btn btn-primary">
+                            Get Started Free
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#features" class="btn btn-outline">
+                            Explore Features
+                        </a>
+
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="trust-icons">
+                            <i class="fa-solid fa-user"></i>
+                            <i class="fa-solid fa-user"></i>
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <div>
+                            <strong>Work better together</strong>
+                            <small>One workspace for your entire team</small>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Dashboard Preview -->
+
+                <div class="hero-visual">
+
+                    <div class="dashboard-card">
+
+                        <div class="dashboard-top">
+                            <div>
+                                <span class="dashboard-small">WORKSPACE</span>
+                                <h3>My Dashboard</h3>
+                            </div>
+
+                            <div class="dashboard-profile">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-welcome">
+                            <h3>Welcome back! 👋</h3>
+                            <p>Here is your project overview.</p>
+                        </div>
+
+                        <div class="stats-grid">
+
+                            <div class="stat-box">
+                                <span>Total Projects</span>
+                                <h2>24</h2>
+                                <small class="positive">
+                                    <i class="fa-solid fa-arrow-up"></i>
+                                    12% this month
+                                </small>
+                            </div>
+
+                            <div class="stat-box">
+                                <span>Completed Tasks</span>
+                                <h2>156</h2>
+                                <small class="positive">
+                                    <i class="fa-solid fa-arrow-up"></i>
+                                    18% this month
+                                </small>
+                            </div>
+
+                        </div>
+
+                        <div class="dashboard-projects">
+
+                            <div class="project-heading">
+                                <h4>Recent Projects</h4>
+                                <span>View All</span>
+                            </div>
+
+                            <div class="project-item">
+                                <div class="project-icon purple">
+                                    <i class="fa-solid fa-globe"></i>
+                                </div>
+
+                                <div class="project-info">
+                                    <strong>Website Redesign</strong>
+                                    <small>12 of 15 tasks completed</small>
+                                </div>
+
+                                <span class="project-percent">80%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width: 80%"></span>
+                            </div>
+
+                            <div class="project-item">
+                                <div class="project-icon blue">
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                </div>
+
+                                <div class="project-info">
+                                    <strong>Mobile Application</strong>
+                                    <small>8 of 20 tasks completed</small>
+                                </div>
+
+                                <span class="project-percent">40%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width: 40%"></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div>
+                            <strong>Task Completed!</strong>
+                            <small>Great work today.</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES SECTION ================= -->
+
+        <section class="features section-padding" id="features">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">OUR FEATURES</span>
+
+                    <h2>
+                        Everything You Need to
+                        <span>Work Smarter</span>
+                    </h2>
+
+                    <p>
+                        Powerful tools designed to simplify your workflow
+                        and help your team achieve more every day.
+                    </p>
+
+                </div>
+
+
+                <div class="features-grid">
+
+                    <div class="feature-card">
+                        <div class="feature-icon purple">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+
+                        <h3>Task Management</h3>
+
+                        <p>
+                            Create, organize and manage all your tasks
+                            from one simple and easy-to-use workspace.
+                        </p>
+
+                        <a href="#contact">
+                            Learn More <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+
+                    <div class="feature-card">
+                        <div class="feature-icon blue">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+
+                        <h3>Smart Analytics</h3>
+
+                        <p>
+                            Monitor project performance and track your
+                            team's progress with helpful insights.
+                        </p>
+
+                        <a href="#contact">
+                            Learn More <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+
+                    <div class="feature-card">
+                        <div class="feature-icon pink">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+
+                        <h3>Team Collaboration</h3>
+
+                        <p>
+                            Bring your team together, share ideas and
+                            work on projects more efficiently.
+                        </p>
+
+                        <a href="#contact">
+                            Learn More <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+
+                    <div class="feature-card">
+                        <div class="feature-icon orange">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+
+                        <h3>Smart Notifications</h3>
+
+                        <p>
+                            Stay updated with important deadlines,
+                            project activities and task reminders.
+                        </p>
+
+                        <a href="#contact">
+                            Learn More <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+
+                    <div class="feature-card">
+                        <div class="feature-icon green">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+
+                        <h3>Project Planning</h3>
+
+                        <p>
+                            Plan your projects, organize deadlines and
+                            keep every activity on schedule.
+                        </p>
+
+                        <a href="#contact">
+                            Learn More <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+
+                    <div class="feature-card">
+                        <div class="feature-icon cyan">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+
+                        <h3>Cloud Workspace</h3>
+
+                        <p>
+                            Access your workspace from anywhere and
+                            keep your work organized in one place.
+                        </p>
+
+                        <a href="#contact">
+                            Learn More <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT SECTION ================= -->
+
+        <section class="about section-padding" id="about">
+
+            <div class="container about-container">
+
+                <div class="about-visual">
+
+                    <div class="about-main-card">
+
+                        <div class="about-card-heading">
+                            <h3>How TaskFlow Works</h3>
+                            <span class="live-status">● Live Preview</span>
+                        </div>
+
+                        <div class="workflow-step">
+                            <span class="step-number">01</span>
+                            <div>
+                                <h4>Create Your Workspace</h4>
+                                <p>Start with your own project workspace.</p>
+                            </div>
+                        </div>
+
+                        <div class="workflow-line"></div>
+
+                        <div class="workflow-step">
+                            <span class="step-number">02</span>
+                            <div>
+                                <h4>Organize Your Tasks</h4>
+                                <p>Break projects into simple tasks.</p>
+                            </div>
+                        </div>
+
+                        <div class="workflow-line"></div>
+
+                        <div class="workflow-step">
+                            <span class="step-number">03</span>
+                            <div>
+                                <h4>Collaborate With Team</h4>
+                                <p>Share work and stay connected.</p>
+                            </div>
+                        </div>
+
+                        <div class="workflow-line"></div>
+
+                        <div class="workflow-step">
+                            <span class="step-number">04</span>
+                            <div>
+                                <h4>Track Your Success</h4>
+                                <p>Measure progress and achieve goals.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="section-tag">ABOUT TASKFLOW</span>
+
+                    <h2>
+                        A Better Way to
+                        <span>Manage Everything</span>
+                    </h2>
+
+                    <p>
+                        TaskFlow is a smart project management platform
+                        designed to make teamwork simple, organized
+                        and productive.
+                    </p>
+
+                    <p>
+                        Whether you are a student, freelancer, startup
+                        or growing business, TaskFlow gives you the
+                        tools to plan projects, manage tasks and
+                        achieve your goals.
+                    </p>
+
+                    <div class="about-points">
+
+                        <div>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Easy-to-use interface
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Better team productivity
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Simple project tracking
+                        </div>
+
+                    </div>
+
+                    <a href="#pricing" class="btn btn-primary">
+                        Explore Our Plans
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRICING SECTION ================= -->
+
+        <section class="pricing section-padding" id="pricing">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">SIMPLE PRICING</span>
+
+                    <h2>
+                        Choose the Right
+                        <span>Plan for You</span>
+                    </h2>
+
+                    <p>
+                        Start for free and upgrade whenever your team
+                        needs more powerful tools.
+                    </p>
+
+                </div>
+
+
+                <div class="pricing-grid">
+
+                    <!-- FREE PLAN -->
+
+                    <div class="pricing-card">
+
+                        <div class="plan-name">
+                            <i class="fa-solid fa-rocket"></i>
+                            <h3>Starter</h3>
+                        </div>
+
+                        <p>Perfect for individuals and beginners.</p>
+
+                        <div class="plan-price">
+                            <h2>₹0</h2>
+                            <span>/ month</span>
+                        </div>
+
+                        <a href="#contact" class="btn btn-outline pricing-btn">
+                            Get Started Free
+                        </a>
+
+                        <div class="plan-divider"></div>
+
+                        <h4>What's Included</h4>
+
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i> Up to 3 projects</li>
+                            <li><i class="fa-solid fa-check"></i> Basic task management</li>
+                            <li><i class="fa-solid fa-check"></i> Basic dashboard</li>
+                            <li><i class="fa-solid fa-check"></i> Personal workspace</li>
+                            <li><i class="fa-solid fa-check"></i> Email support</li>
+                        </ul>
+
+                    </div>
+
+
+                    <!-- PRO PLAN -->
+
+                    <div class="pricing-card popular">
+
+                        <div class="popular-label">MOST POPULAR</div>
+
+                        <div class="plan-name">
+                            <i class="fa-solid fa-crown"></i>
+                            <h3>Professional</h3>
+                        </div>
+
+                        <p>Best for teams and growing businesses.</p>
+
+                        <div class="plan-price">
+                            <h2>₹499</h2>
+                            <span>/ month</span>
+                        </div>
+
+                        <a href="#contact" class="btn btn-primary pricing-btn">
+                            Get Started Now
+                        </a>
+
+                        <div class="plan-divider"></div>
+
+                        <h4>What's Included</h4>
+
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i> Unlimited projects</li>
+                            <li><i class="fa-solid fa-check"></i> Advanced task management</li>
+                            <li><i class="fa-solid fa-check"></i> Advanced analytics</li>
+                            <li><i class="fa-solid fa-check"></i> Team collaboration</li>
+                            <li><i class="fa-solid fa-check"></i> Priority support</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT SECTION ================= -->
+
+        <section class="contact section-padding" id="contact">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">GET IN TOUCH</span>
+
+                    <h2>
+                        Ready to Get
+                        <span>Started?</span>
+                    </h2>
+
+                    <p>
+                        Have questions or want to see TaskFlow in action?
+                        Send us a message. We'd love to hear from you.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-container">
+
+                    <div class="contact-info">
+
+                        <h3>Let's Talk About Your Projects</h3>
+
+                        <p>
+                            Contact our team to learn more about
+                            TaskFlow and how it can improve your workflow.
+                        </p>
+
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+
+                            <div>
+                                <span>Email Us</span>
+                                <a href="arshiyansayyad9834@gmail.com">
+                                    arshiyansayyad9834@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+
+                            <div>
+                                <span>Working Hours</span>
+                                <strong>Monday - Friday</strong>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div>
+                                <span>Our Platform</span>
+                                <strong>Available Online</strong>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- DEMO REQUEST FORM -->
+
+                    <form class="contact-form" id="contactForm">
+
+                        <h3>Request a Free Demo</h3>
+
+                        <p>Fill in your details and we'll get back to you.</p>
+
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your full name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select an option</option>
+                                <option value="Free Demo">Request a Free Demo</option>
+                                <option value="Starter Plan">Starter Plan</option>
+                                <option value="Professional Plan">Professional Plan</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="4"
+                                placeholder="Write your message..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            Send Message
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+
+                        <p class="form-message" id="formMessage"
+                           role="status" aria-live="polite"></p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA SECTION ================= -->
+
+        <section class="cta-section">
+
+            <div class="container cta-container">
+
+                <span class="section-tag">START YOUR JOURNEY</span>
+
+                <h2>
+                    Make Every Project
+                    <span>Count With TaskFlow.</span>
+                </h2>
+
+                <p>
+                    Organize your work, empower your team and
+                    accomplish more every day.
+                </p>
+
+                <a href="#contact" class="btn btn-primary">
+                    Get Started Today
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    <span class="logo-icon">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </span>
+                    Task<span>Flow</span>
+                </a>
+
+                <p>
+                    Helping individuals and teams manage projects,
+                    organize tasks and achieve more together.
+                </p>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/arshiyan-sayyad-741b7142b/" target="_blank"
+                       rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="c:\Users\DELL\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\E896E83AC9F0E304AAD8CD3161979443170D9748\transfers\2026-46\WhatsApp Image 2026-11-17 at 4.14.19 PM.jpeg" target="_blank"
+                       rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://github.com/arshiyan99" target="_blank"
+                       rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#about">About Us</a>
+                <a href="#pricing">Pricing</a>
+            </div>
+
+
+            <div class="footer-column">
+                <h4>Our Features</h4>
+                <a href="#features">Task Management</a>
+                <a href="#features">Analytics</a>
+                <a href="#features">Collaboration</a>
+                <a href="#features">Notifications</a>
+            </div>
+
+
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <a href="#contact">Request a Demo</a>
+                <a href="arshiyansayyad9834@gmail.com">
+                    Email Us
+                </a>
+                <a href="#contact">Get Support</a>
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <p>
+                © <span id="currentYear">2026</span> TaskFlow.
+                All Rights Reserved.
+            </p>
+
+            <p>Designed for Better Productivity.</p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
